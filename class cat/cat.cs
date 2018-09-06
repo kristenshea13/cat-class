@@ -19,11 +19,11 @@ namespace class_Cat
             {
             
             //if/else if/else statements to determine adoption fee of cat based on two variables
-            if (FurLength == "Long" && Age <= 5)
+            if (FurLength == "LONG" && Age <= 5)
                 return 125;
-            else if (FurLength == "Short" && Age <= 5)
+            else if (FurLength == "SHORT" && Age <= 5)
                 return 100;
-            else if (FurLength == "Medium" && Age <= 5)
+            else if (FurLength == "MEDIUM" && Age <= 5)
                 return 75.25M;
             else
                return 55.50M;
@@ -34,16 +34,7 @@ namespace class_Cat
 
         }
 
-        //public int PointValue
-        //{
-        //    get
-        //    {
-        //        if (FaceValue == "Ace") return 11;
-        //        else if (FaceValue == "King" || FaceValue == "Queen" || FaceValue == "Jack") return 10;
-        //        else return int.Parse(FaceValue);
-        //    }
-        //}
-
+        
 
     }
 }
