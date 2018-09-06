@@ -30,7 +30,6 @@ namespace class_Cat
 
             Console.ReadLine();
         }
-
         private static decimal AdoptPrice(string FurLength, int Age)
         {
             //declare fee as decimal type
@@ -50,6 +49,7 @@ namespace class_Cat
             return fee;
 
         }
+
 
 
     }

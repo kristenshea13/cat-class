@@ -15,16 +15,6 @@ namespace class_Cat
 
         
 
-        //public decimal DetermineMarketValue()
-        //{
-        //    decimal carValue;
-
-        //    if (Year > 1990)
-        //        carValue = 10000;
-        //    else
-        //        carValue = 2000;
-        //    return carValue;
-
-        //}
+       
     }
 }
