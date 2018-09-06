@@ -6,7 +6,7 @@ namespace class_Cat
     {
         static void Main(string[] args)
         {
-            //create new cat from Cat class
+            //create new cat from Cat class using user input
 
             Console.Write("What is your cat's fur color? ");
             string catFur = Console.ReadLine().ToUpper();
