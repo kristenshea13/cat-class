@@ -30,7 +30,7 @@ namespace class_Cat
             //string adoptionfee = $"{myCat.AdoptPrice:C}
             //print adoption fee as currency to console
             //Console.WriteLine("I adopted him for {0}", adoptionfee);
-            
+
             //commented out above logic, used a private method within a property within my class
             //with a public way to access it.
 
@@ -40,7 +40,7 @@ namespace class_Cat
 
             Console.ReadLine();
         }
-      
+
 
     }
    
