@@ -17,7 +17,7 @@ namespace class_Cat
         //gave a public way to access what the logic behind the variable returns.
         public void AdoptPrice()
         {
-            Console.WriteLine($"My cat's adoption fee was: {AdoptionPrice}");
+            Console.WriteLine($"My cat's adoption fee was: {AdoptionPrice:C}");
         }
 
         private decimal AdoptionPrice
